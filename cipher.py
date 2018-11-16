@@ -17,7 +17,7 @@ def getCriptography(mode, message, key):
                 phrase += "\n"
             outputCounter += 1
         return phrase
-    # To encrypt each letter must go x number of letters backwards
+    # To encrypt each letter must go x number of letters backwards.
     if mode == 1:
         key = -key
 
@@ -36,7 +36,7 @@ def getCriptography(mode, message, key):
                 elif num < ord("a"):
                     num += 26
 
-            # Convert a Unicode into the respective number and concatenate it
+            # Convert a Unicode into the respective number and concatenate it.
             phrase += chr(num)
         else:
             phrase += symbol
