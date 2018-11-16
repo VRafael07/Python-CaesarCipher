@@ -8,5 +8,6 @@ Example:
 The user in this program can encrypt or decrypt a given message, and if you don't know the key number of an encrypted text it's possible to brute force it and see all possible decryptions.
 
 In order to make the fonts fancy on linux execute the .py file with a admin permission.
+
 Example:
-   sudo python3 __main__.py
+   *sudo python3 \__main__.py*
